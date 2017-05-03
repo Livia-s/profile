@@ -1,0 +1,63 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background: #EBEBEB;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+h1 {
+  color: #DD5555;
+}
+a {
+  text-decoration: none;
+  color: #666;
+}
+a:hover {
+  color: #DD5555;
+}
+
+
+
+.card {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+  margin: 20px 0px;
+}
+
+.container {
+  width: 500px;
+  margin: 20px auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+.btn-primary {
+  background-color: #F44336;
+  padding: 10px 20px;
+  border-radius: 3px;
+  color: white;
+  transition: background-color 600ms;
+}
+
+.btn-primary: hover {
+  color: white;
+  background-color: #D32F2F;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 20px;
+}
